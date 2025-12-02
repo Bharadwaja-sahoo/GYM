@@ -111,3 +111,21 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
     --bs-text-opacity: 1;
     color: #e36300 !important;
 }
+
+@media (max-width: 900px) {
+    .main-box{
+        display: none;
+    }
+    .header .logo h1 {
+        font-size: 20px !important;
+    }
+    .header .logo img {
+        width: 40px !important;
+    }
+    .footer .footer-content .logo{
+        justify-content: center;
+    }
+    #trainer-hero{
+        overflow: hidden !important;
+    }
+}

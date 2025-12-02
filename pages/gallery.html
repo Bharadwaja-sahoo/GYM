@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Primary SEO Tags -->
-    <title>DumBBell Fitness Club | Contact Us | Best Gym for Strength, Cardio & Personal Training</title>
+    <title>DumBBell Fitness Club | Gallery | Best Gym for Strength, Cardio & Personal Training</title>
     <meta name="description"
         content="DumBBell Fitness Club offers strength training, weight loss programs, cardio workouts, personal training, and modern gym facilities. Join today and transform your fitness journey." />
     <meta name="keywords"
@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="../assets/css/main.css" />
 </head>
 
-<body class="contact-page">
+<body class="gallery-page">
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container position-relative d-flex align-items-center justify-content-between">
             <a href="../index.html" class="logo d-flex align-items-center me-auto me-xl-0">
@@ -61,7 +61,7 @@
                     <li><a href="trainer.html">Trainers</a></li>
                     <li><a href="pricing.html">Pricing</a></li>
                     <li class="dropdown">
-                        <a href="javascript:void(0);"><span>More Pages</span>
+                        <a href="javascript:void(0);" class="active"><span>More Pages</span>
                             <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
                             <li><a href="./gallery.html">Gallery</a></li>
@@ -80,7 +80,7 @@
                             <li><a href="transformations.html">Transformation Stories</a></li>
                         </ul>
                     </li>
-                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
@@ -93,122 +93,246 @@
         <!-- Page Title -->
         <div class="page-title dark-background" style="background-image: url(../assets/images/image-1.jpg);">
             <div class="container position-relative">
-                <h1>Contact Us</h1>
-                <p>Our dedicated fitness team is here to support your goals with expert guidance, quick assistance, and reliable help for every training, membership, and workout-related need.</p>
+                <h1>Gallery</h1>
+                <p>Review our Terms & Conditions to understand the guidelines, responsibilities, and policies that help
+                    us maintain a safe and professional fitness environment.</p>
                 <nav class="breadcrumbs">
                     <ol>
                         <li><a href="../index.html">Home</a></li>
-                        <li class="current">Contact Us</li>
+                        <li class="current">Gallery</li>
                     </ol>
                 </nav>
             </div>
         </div>
         <!-- End Page Title -->
-        <!-- Contact Section -->
-        <section id="contact" class="contact section">
+        <!-- Gallery Slider Section -->
+        <section id="gallery-slider" class="gallery-slider section">
             <div class="container">
-                <div class="contact-wrapper">
-                    <div class="contact-info-panel">
-                        <div class="contact-info-header">
-                            <h3>Contact Information</h3>
-                            <p>Find essential details to connect with our fitness center. Whether you need membership assistance, training guidance, or facility support, our team is always here to help you stay on track.</p>
-                        </div>
-                        <div class="contact-info-cards">
-                            <div class="info-card">
-                                <div class="icon-container">
-                                    <i class="bi bi-pin-map-fill"></i>
-                                </div>
-                                <div class="card-content">
-                                    <h4>Our Location</h4>
-                                    <p>21 Fitness Street, Bhubaneswar<br>
-                                    Odisha 751001, India</p>
+                <div class="gallery-container">
+                    <div class="swiper init-swiper">
+                        <script type="application/json" class="swiper-config">
+                            {
+                                "loop": true,
+                                "speed": 800,
+                                "autoplay": {
+                                "delay": 4000
+                                },
+                                "effect": "coverflow",
+                                "grabCursor": true,
+                                "centeredSlides": true,
+                                "slidesPerView": "auto",
+                                "coverflowEffect": {
+                                "rotate": 50,
+                                "stretch": 0,
+                                "depth": 100,
+                                "modifier": 1,
+                                "slideShadows": true
+                                },
+                                "pagination": {
+                                "el": ".swiper-pagination",
+                                "type": "bullets",
+                                "clickable": true
+                                },
+                                "navigation": {
+                                "nextEl": ".swiper-button-next",
+                                "prevEl": ".swiper-button-prev"
+                                },
+                                "breakpoints": {
+                                "320": {
+                                    "slidesPerView": 1,
+                                    "spaceBetween": 10
+                                },
+                                "768": {
+                                    "slidesPerView": 2,
+                                    "spaceBetween": 20
+                                },
+                                "1024": {
+                                    "slidesPerView": 3,
+                                    "spaceBetween": 30
+                                }
+                                }
+                            }
+                        </script>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="gallery-item">
+                                    <div class="gallery-img">
+                                        <a class="glightbox" data-gallery="images-gallery"
+                                            href="../assets/images/image-1.jpg">
+                                            <img src="../assets/images/image-1.jpg" class="img-fluid" alt="">
+                                            <div class="gallery-overlay">
+                                                <i class="bi bi-plus-circle"></i>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="info-card">
-                                <div class="icon-container">
-                                    <i class="bi bi-envelope-open"></i>
-                                </div>
-                                <div class="card-content">
-                                    <h4>Email Us</h4>
-                                    <p>support@dumbbellfitness.com</p>
-                                </div>
-                            </div>
-                            <div class="info-card">
-                                <div class="icon-container">
-                                    <i class="bi bi-telephone-fill"></i>
-                                </div>
-                                <div class="card-content">
-                                    <h4>Call Us</h4>
-                                    <p>+91 9861* ***87</p>
+                            <div class="swiper-slide">
+                                <div class="gallery-item">
+                                    <div class="gallery-img">
+                                        <a class="glightbox" data-gallery="images-gallery"
+                                            href="../assets/images/image-3.jpg">
+                                            <img src="../assets/images/image-3.jpg" class="img-fluid" alt="">
+                                            <div class="gallery-overlay">
+                                                <i class="bi bi-plus-circle"></i>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="info-card">
-                                <div class="icon-container">
-                                    <i class="bi bi-clock-history"></i>
+                            <div class="swiper-slide">
+                                <div class="gallery-item">
+                                    <div class="gallery-img">
+                                        <a class="glightbox" data-gallery="images-gallery"
+                                            href="../assets/images/image-4.jpg">
+                                            <img src="../assets/images/image-4.jpg" class="img-fluid" alt="">
+                                            <div class="gallery-overlay">
+                                                <i class="bi bi-plus-circle"></i>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="card-content">
-                                    <h4>Working Hours</h4>
-                                    <p>Monday-Saturday: 6AM - 12PM</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="gallery-item">
+                                    <div class="gallery-img">
+                                        <a class="glightbox" data-gallery="images-gallery"
+                                            href="../assets/images/image-5.jpg">
+                                            <img src="../assets/images/image-5.jpg" class="img-fluid" alt="">
+                                            <div class="gallery-overlay">
+                                                <i class="bi bi-plus-circle"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="gallery-item">
+                                    <div class="gallery-img">
+                                        <a class="glightbox" data-gallery="images-gallery"
+                                            href="../assets/images/image-6.jpg">
+                                            <img src="../assets/images/image-6.jpg" class="img-fluid" alt="">
+                                            <div class="gallery-overlay">
+                                                <i class="bi bi-plus-circle"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="gallery-item">
+                                    <div class="gallery-img">
+                                        <a class="glightbox" data-gallery="images-gallery"
+                                            href="../assets/images/image-10.jpg">
+                                            <img src="../assets/images/image-10.jpg" class="img-fluid" alt="">
+                                            <div class="gallery-overlay">
+                                                <i class="bi bi-plus-circle"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="gallery-item">
+                                    <div class="gallery-img">
+                                        <a class="glightbox" data-gallery="images-gallery"
+                                            href="../assets/images/image-11.jpg">
+                                            <img src="../assets/images/image-11.jpg" class="img-fluid" alt="">
+                                            <div class="gallery-overlay">
+                                                <i class="bi bi-plus-circle"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="gallery-item">
+                                    <div class="gallery-img">
+                                        <a class="glightbox" data-gallery="images-gallery"
+                                            href="../assets/images/image-12.jpg">
+                                            <img src="../assets/images/image-12.jpg" class="img-fluid" alt="">
+                                            <div class="gallery-overlay">
+                                                <i class="bi bi-plus-circle"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="gallery-item">
+                                    <div class="gallery-img">
+                                        <a class="glightbox" data-gallery="images-gallery"
+                                            href="../assets/images/image-13.jpg">
+                                            <img src="../assets/images/image-13.jpg" class="img-fluid" alt="">
+                                            <div class="gallery-overlay">
+                                                <i class="bi bi-plus-circle"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="gallery-item">
+                                    <div class="gallery-img">
+                                        <a class="glightbox" data-gallery="images-gallery"
+                                            href="../assets/images/image-14.jpg">
+                                            <img src="../assets/images/image-14.jpg" class="img-fluid" alt="">
+                                            <div class="gallery-overlay">
+                                                <i class="bi bi-plus-circle"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="gallery-item">
+                                    <div class="gallery-img">
+                                        <a class="glightbox" data-gallery="images-gallery"
+                                            href="../assets/images/image-15.jpg">
+                                            <img src="../assets/images/image-15.jpg" class="img-fluid" alt="">
+                                            <div class="gallery-overlay">
+                                                <i class="bi bi-plus-circle"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="gallery-item">
+                                    <div class="gallery-img">
+                                        <a class="glightbox" data-gallery="images-gallery"
+                                            href="../assets/images/image-16.jpg">
+                                            <img src="../assets/images/image-16.jpg" class="img-fluid" alt="">
+                                            <div class="gallery-overlay">
+                                                <i class="bi bi-plus-circle"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="gallery-item">
+                                    <div class="gallery-img">
+                                        <a class="glightbox" data-gallery="images-gallery"
+                                            href="../assets/images/image-17.jpg">
+                                            <img src="../assets/images/image-17.jpg" class="img-fluid" alt="">
+                                            <div class="gallery-overlay">
+                                                <i class="bi bi-plus-circle"></i>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="social-links-panel">
-                            <h5>Follow Us</h5>
-                            <div class="social-icons">
-                                <a href="#"><i class="bi bi-youtube"></i></a>
-                                <a href="#"><i class="bi bi-instagram"></i></a>
-                                <a href="#"><i class="bi bi-facebook"></i></a>
-                                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                                <a href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact-form-panel">
-                        <div class="map-container">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d233.86104798245103!2d85.83872315858973!3d20.30950512459712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDE4JzM0LjQiTiA4NcKwNTAnMTkuMiJF!5e0!3m2!1sen!2sin!4v1764524625336!5m2!1sen!2sin"
-                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                        <div class="form-container">
-                            <h3>Send Us a Message</h3>
-                            <p>Reach out to our fitness team for any training support, membership guidance, or wellness queries—your health goals are always our priority.</p>
-                            <form action="forms/contact.php" method="post" class="php-email-form">
-                                <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="nameInput" name="name"
-                                        placeholder="Full Name" required="">
-                                    <label for="nameInput">Full Name</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="email" class="form-control" id="emailInput" name="email"
-                                        placeholder="Email Address" required="">
-                                    <label for="emailInput">Email Address</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="subjectInput" name="subject"
-                                        placeholder="Subject" required="">
-                                    <label for="subjectInput">Subject</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <textarea class="form-control" id="messageInput" name="message" rows="5"
-                                        placeholder="Your Message" style="height: 150px" required=""></textarea>
-                                    <label for="messageInput">Your Message</label>
-                                </div>
-                                <div class="my-3">
-                                    <div class="loading">Loading</div>
-                                    <div class="error-message"></div>
-                                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                                </div>
-                                <div class="d-grid">
-                                    <button type="submit" class="btn-submit">Send Message <i
-                                            class="bi bi-send-fill ms-2"></i></button>
-                                </div>
-                            </form>
-                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                 </div>
+
             </div>
-        </section><!-- /Contact Section -->
+
+        </section><!-- /Gallery Slider Section -->
     </main>
 
     <footer id="footer" class="footer position-relative dark-background">
@@ -216,7 +340,7 @@
             <div class="row gy-5">
                 <div class="col-lg-4">
                     <div class="footer-content">
-                        <a href="index.html" class="logo d-flex align-items-center mb-4">
+                        <a href="../index.html" class="logo d-flex align-items-center mb-4">
                             <img src="../assets/images/final_icon.png" alt="" style="width: 50px; margin-right: 8px;">
                             <span class="sitename">DumBBell</span>
                         </a>
@@ -261,11 +385,16 @@
                     <div class="footer-links">
                         <h4>Services</h4>
                         <ul>
-                            <li><a href="../services/strength_training.html"><i class="bi bi-chevron-right"></i> Strength Training</a></li>
-                            <li><a href="../services/cardio-hiit.html"><i class="bi bi-chevron-right"></i> Cardio & HIIT</a></li>
-                            <li><a href="../services/personal-training.html"><i class="bi bi-chevron-right"></i> Personal Training</a></li>
-                            <li><a href="../services/nutrition-plans.html"><i class="bi bi-chevron-right"></i> Nutrition Plans</a></li>
-                            <li><a href="../services/body-analysis.html"><i class="bi bi-chevron-right"></i> Body Analysis</a></li>
+                            <li><a href="../services/strength_training.html"><i class="bi bi-chevron-right"></i>
+                                    Strength Training</a></li>
+                            <li><a href="../services/cardio-hiit.html"><i class="bi bi-chevron-right"></i> Cardio &
+                                    HIIT</a></li>
+                            <li><a href="../services/personal-training.html"><i class="bi bi-chevron-right"></i>
+                                    Personal Training</a></li>
+                            <li><a href="../services/nutrition-plans.html"><i class="bi bi-chevron-right"></i> Nutrition
+                                    Plans</a></li>
+                            <li><a href="../services/body-analysis.html"><i class="bi bi-chevron-right"></i> Body
+                                    Analysis</a></li>
                         </ul>
                     </div>
                 </div>
@@ -330,7 +459,7 @@
                         <div class="footer-bottom-links">
                             <a href="./privacy_policy.html">Privacy Policy</a>
                             <a href="./terms&condition.html">Terms of Service</a>
-                            <a href="cookie_policy">Cookie Policy</a>
+                            <a href="../pages/cookie_policy">Cookie Policy</a>
                         </div>
                         <div class="credits">
                             Designed & Developed by <a href="#">Bharadwaja Sahoo</a>
